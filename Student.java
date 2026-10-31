@@ -8,7 +8,7 @@ public class Student {
     private int age;
     private String mobileNumber;
     private double attendancePercentage;
-    // Map of Course Name -> Letter Grade or Numerical Grade (4.0 scale)
+    // Map of Course Name Letter Grade or Numerical Grade (10.0 scale)
     private final Map<String, Double> courseGrades;
 
     public Student(String id, String password, String name, int age, String mobileNumber) {

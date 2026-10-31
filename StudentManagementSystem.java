@@ -25,7 +25,7 @@ public class StudentManagementSystem extends JFrame {
         add(mainPanel);
     }
 
-    // --- 1. HOME SCREEN ---
+    // HOME SCREEN 
     private JPanel createHomeScreen() {
         JPanel panel = new JPanel(new GridBagLayout());
         panel.setBackground(new Color(240, 244, 248));
@@ -56,7 +56,7 @@ public class StudentManagementSystem extends JFrame {
         return panel;
     }
 
-    // --- 2. STUDENT LOGIN SCREEN ---
+    //STUDENT LOGIN SCREEN 
     private JPanel createStudentLoginScreen() {
         JPanel panel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -102,7 +102,7 @@ public class StudentManagementSystem extends JFrame {
         return panel;
     }
 
-    // --- 3. ADMIN LOGIN SCREEN ---
+    // ADMIN LOGIN SCREEN 
     private JPanel createAdminLoginScreen() {
         JPanel panel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -147,14 +147,14 @@ public class StudentManagementSystem extends JFrame {
         return panel;
     }
 
-    // --- 4. STUDENT DASHBOARD (VIEW ONLY) ---
+    // STUDENT DASHBOARD (VIEW ONLY) 
     private JPanel createStudentDashboard(Student student) {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 
         // Top info header
         JPanel infoPanel = new JPanel(new GridLayout(3, 2, 10, 5));
-        infoPanel.setBorder(BorderFactory.createTitledBorder("Student Details (Read-Only)"));
+        infoPanel.setBorder(BorderFactory.createTitledBorder("Student Details"));
         infoPanel.add(new JLabel("ID: " + student.getId()));
         infoPanel.add(new JLabel("Name: " + student.getName()));
         infoPanel.add(new JLabel("Age: " + student.getAge()));
@@ -163,13 +163,13 @@ public class StudentManagementSystem extends JFrame {
         infoPanel.add(new JLabel(String.format("Overall CGPA: %.2f", student.calculateCGPA())));
 
         // Academic history table
-        String[] cols = {"Course Name", "Grade Point (4.0)"};
+        String[] cols = {"Course Name", "Grade Point (10.0)"};
         DefaultTableModel model = new DefaultTableModel(cols, 0);
         for (Map.Entry<String, Double> entry : student.getCourseGrades().entrySet()) {
             model.addRow(new Object[]{entry.getKey(), entry.getValue()});
         }
         JTable table = new JTable(model);
-        table.setEnabled(false); // Make read-only
+        table.setEnabled(false); // Make read only
 
         JButton btnLogout = new JButton("Logout");
         btnLogout.addActionListener(e -> cardLayout.show(mainPanel, "Home"));
@@ -181,7 +181,7 @@ public class StudentManagementSystem extends JFrame {
         return panel;
     }
 
-    // --- 5. ADMIN DASHBOARD (FULL CONTROL) ---
+    // ADMIN DASHBOARD (FULL CONTROL) 
     private JPanel createAdminDashboard() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));

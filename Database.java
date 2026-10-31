@@ -12,7 +12,7 @@ public class Database {
         students = new HashMap<>();
         
         // Sample Student Seed Data
-        Student s1 = new Student("Baron26", "pass26", "BARON BHOWMICK", 20, "7742626590");
+        Student s1 = new Student("Baron26", "pass26", "BARON BHOWMICK", 20, "7740000890");
         s1.addOrUpdateCourse("Computer Organization: ", 8.0);
         s1.addOrUpdateCourse("Theory of Computation: ", 9.0);
         s1.addOrUpdateCourse("Data Structures and Algorithms: ", 8.5);

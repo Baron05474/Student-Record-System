@@ -29,6 +29,7 @@ A desktop-based Student Record Management System built using **Java** and **Obje
 
 ---
 
-👨‍💻 Author
-Baron Bhowmick
+👨‍💻 Author 
+
+Baron Bhowmick 
 B.Tech Computer Science and Engineering

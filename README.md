@@ -17,24 +17,18 @@ A desktop-based Student Record Management System built using **Java (Swing)** an
 
 ## 🛠️ Tech Stack
 * **Language:** Java
-* **GUI Framework:** Java Swing, AWT, CardLayout
 * **Architecture:** Object-Oriented Programming (OOP) principles with decoupled model and database layers.
 
 ---
 
 ## 🖥️ Screenshots
 
-*(Tomar project-er screen-gulo ekhane add korte paro)*
-* **Home Page:** *(Insert Screenshot Here)*
-* **Student Dashboard:** *(Insert Screenshot Here)*
-* **Admin Dashboard:** *(Insert Screenshot Here)*
+* **Home Page:** **
+* **Student Dashboard:** **
+* **Admin Dashboard:** **
 
 ---
 
-## ⚙️ Getting Started & Local Execution
-
-Follow these steps to run the project locally on your machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Baron05474/Student-Record-System.git](https://github.com/Baron05474/Student-Record-System.git)
+👨‍💻 Author
+Baron Bhowmick
+B.Tech Computer Science and Engineering

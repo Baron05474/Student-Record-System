@@ -1,6 +1,6 @@
  Student Record Management System 🎓
 
-A desktop-based Student Record Management System built using **Java (Swing)** and **Object-Oriented Programming (OOP)** principles. This application implements role-based access control, allowing secure portals for both Students and Administrators.
+A desktop-based Student Record Management System built using **Java** and **Object-Oriented Programming (OOP)** principles. This application implements role-based access control, allowing secure portals for both Students and Administrators.
 
 🚀 Features
 

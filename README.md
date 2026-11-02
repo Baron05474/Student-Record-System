@@ -18,15 +18,7 @@ A desktop-based Student Record Management System built using **Java** and **Obje
 🛠️ Tech Stack
 * **Language:** Java
 * **Architecture:** Object-Oriented Programming (OOP) principles with decoupled model and database layers.
-
----
-
-🖥️ Screenshots
-
-* **Home Page:** **
-* **Student Dashboard:** **
-* **Admin Dashboard:** **
-
+  
 ---
 
 👨‍💻 Author 
